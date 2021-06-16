@@ -15,6 +15,7 @@
 		013D1874267A6EF400E218CF /* DiaryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 013D1872267A6EF400E218CF /* DiaryApp.xcdatamodeld */; };
 		013D187F267A6EF400E218CF /* DiaryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D187E267A6EF400E218CF /* DiaryAppTests.swift */; };
 		013D188A267A6EF400E218CF /* DiaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D1889267A6EF400E218CF /* DiaryAppUITests.swift */; };
+		48722874267A71A40042C2F0 /* Homeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48722873267A71A40042C2F0 /* Homeview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		013D1885267A6EF400E218CF /* DiaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013D1889267A6EF400E218CF /* DiaryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppUITests.swift; sourceTree = "<group>"; };
 		013D188B267A6EF500E218CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48722873267A71A40042C2F0 /* Homeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				013D1875267A6EF400E218CF /* Info.plist */,
 				013D1872267A6EF400E218CF /* DiaryApp.xcdatamodeld */,
 				013D186D267A6EF400E218CF /* Preview Content */,
+				48722873267A71A40042C2F0 /* Homeview.swift */,
 			);
 			path = DiaryApp;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				013D1871267A6EF400E218CF /* Persistence.swift in Sources */,
+				48722874267A71A40042C2F0 /* Homeview.swift in Sources */,
 				013D186A267A6EF300E218CF /* ContentView.swift in Sources */,
 				013D1868267A6EF300E218CF /* DiaryAppApp.swift in Sources */,
 				013D1874267A6EF400E218CF /* DiaryApp.xcdatamodeld in Sources */,
