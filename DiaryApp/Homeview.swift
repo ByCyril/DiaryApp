@@ -24,12 +24,12 @@ struct Homeview: View {
                     .font(.largeTitle)
             })
             VStack {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {}, label: {
                     Text("Write")
                         .font(.title)
                 })
                     .padding(.horizontal)
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {}, label: {
                     Text("Read")
                         .font(.title)
                     
