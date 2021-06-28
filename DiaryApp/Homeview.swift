@@ -13,11 +13,11 @@ struct Homeview: View {
             Text("Home")
                 .fontWeight(.heavy)
                 .foregroundColor(.purple)
-                .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                .font(.largeTitle)
 
             
             Spacer()
-            ZStack(alignment: /*@START_MENU_TOKEN@*/Alignment(horizontal: .center, vertical: .center)/*@END_MENU_TOKEN@*/, content: {
+            ZStack(alignment: Alignment(horizontal: .center, vertical: .center), content: {
                 RoundedRectangle(cornerRadius: 20)
                     .stroke()
                 Image(systemName: "pencil")
